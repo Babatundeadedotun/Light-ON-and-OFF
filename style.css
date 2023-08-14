@@ -1,0 +1,133 @@
+body{
+    background: linear-gradient(to top, #58b26c, #baba6a, #ad52b8);
+    background-repeat: no-repeat;
+    height: 97vh;
+}
+.bulbon{
+    width: 365px; 
+    margin-top: 28px;
+    margin-left: -340px !important;
+    height: 69vh;
+    text-align: center;
+    display: none;
+}
+.bulboff{
+    width: 251px;
+    margin-left: 500px;
+    text-align: center;
+}
+.bulbs{
+    display: flex;
+    gap: 30px;
+}
+.buttons{
+    text-align: center;
+}
+.lighton{
+    width: 10% !important;
+    height: 7vh;
+}
+.lightoff{
+    width: 10% !important;
+    height: 7vh;
+}
+
+@media screen and (max-width:1024px) {
+    .bulbs{
+        margin-left: -100px !important;
+    }
+    .bulbon{
+        height: 36vh;
+    }
+    .lighton{
+        width: 15% !important;
+        font-size: 20px;
+    }
+    .lightoff{
+        width: 15% !important;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:820px) {
+
+        .bulbs{
+            margin-left: -180px !important;
+            margin-top: 200px;
+        }
+
+        .lighton{
+            width: 20% !important;
+            font-size: 25px;
+        }
+        .lightoff{
+            width: 20% !important;
+            font-size: 25px;
+        }
+        .bulbon{
+            height: 90% !important;
+        }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .bulbs{
+        margin-left: -230px !important;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .bulbs{
+        margin-left: -360px !important;
+    }
+    .lightoff{
+        width: 35% !important;
+    }
+    .lighton{
+        width: 35% !important;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .bulbs{
+        margin-left: -360px !important;
+    }
+    .lightoff{
+        width: 35% !important;
+    }
+    .lighton{
+        width: 35% !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .bulbs{
+        margin-left: -400px !important;
+    }
+    .lighton{
+        width: 30% !important;
+    }
+    .lightoff{
+        width: 30% !important;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .bulbs{
+        margin-left: -420px !important;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .bulbs{
+        margin-left: -440px !important;
+    }
+    .lightoff{
+        width: 40% !important;
+    }
+    .lighton{
+        width: 40% !important;
+    }
+}
